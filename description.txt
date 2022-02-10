@@ -1,0 +1,16 @@
+All friendly NPCs (critters, NPCs) are immune to ALL damage!
+Configure whatever you like in the config
+
+Made this because 'Friendly NPCs Don't Die' by 'Caseratis' isn't supported anymore
+Mod requested by 'SirCweepysburgh'
+
+
+CHANGELOG:
+
+1.0.0 
+Release
+
+1.0.0.1
+Fixed a bug relating to critters still being killable
+Added crappy mod icon
+Fixed bugs relating to configs not doing anything or breaking other configs

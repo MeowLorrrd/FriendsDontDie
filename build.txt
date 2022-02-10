@@ -1,0 +1,6 @@
+displayName = Critters Don't Die
+author = MeowLorrrd (for SirCweepysburgh)
+version = 1.0.0.1
+includeSource = true
+hideCode = false
+hideResourcees = false
