@@ -64,8 +64,12 @@ namespace FriendsDontDie
                 {
                     npc.lavaImmune = true;
                 }
-                #endregion
+                if (Config.Instance.allCrittersEnemyImmortal && npc.friendly)
+                {
+                    npc.dontTakeDamageFromHostiles = true;
+                }
             }
+            #endregion
             #region NPCs
             if (Config.Instance.allNPCsImmortal && npc.friendly && npc.type != NPCID.DD2EterniaCrystal)//All damage is negated
             {
@@ -76,6 +80,10 @@ namespace FriendsDontDie
             if (Config.Instance.allNPCsLavaImmortal && npc.friendly && npc.type != NPCID.DD2EterniaCrystal)//All lava damage is negated
             {
                 npc.lavaImmune = true;
+            }
+            if (Config.Instance.allNPCsEnemyImmortal && npc.friendly)
+            {
+                npc.dontTakeDamageFromHostiles = true;
             }
             #endregion
         }

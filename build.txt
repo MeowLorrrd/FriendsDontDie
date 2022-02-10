@@ -1,6 +1,6 @@
 displayName = Critters Don't Die
 author = MeowLorrrd (for SirCweepysburgh)
-version = 1.0.0.2
+version = 1.0.0.3
 includeSource = true
 hideCode = false
 hideResourcees = false

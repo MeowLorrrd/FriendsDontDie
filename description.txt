@@ -16,3 +16,6 @@ Fixed bugs relating to configs not doing anything or breaking other configs
 
 1.0.0.2
 Actually added the crappy mod icon
+
+1.0.0.3
+Fixed another bug relating to NPCs being hittable with enemy projectiles
