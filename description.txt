@@ -19,3 +19,6 @@ Actually added the crappy mod icon
 
 1.0.0.3
 Fixed another bug relating to NPCs being hittable with enemy projectiles
+
+1.0.0.4
+Fixed Eternia Crystal being immortal
