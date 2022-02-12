@@ -81,7 +81,7 @@ namespace FriendsDontDie
             {
                 npc.lavaImmune = true;
             }
-            if (Config.Instance.allNPCsEnemyImmortal && npc.friendly)
+            if (Config.Instance.allNPCsEnemyImmortal && npc.friendly && npc.type != NPCID.DD2EterniaCrystal)
             {
                 npc.dontTakeDamageFromHostiles = true;
             }
